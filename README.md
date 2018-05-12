@@ -1,6 +1,6 @@
-# android_device_samsung_gt510wifi
+# android_vendor_samsung_gt510wifi
 
-## Device tree for Samsung Galaxy Tab (A) SM-T550 [gt510wifi]
+## Vendor files for Samsung Galaxy Tab (A) SM-T550 [gt510wifi]
 
 Basic   | Spec Sheet
 -------:|:-------------------------
