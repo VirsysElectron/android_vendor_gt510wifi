@@ -21,30 +21,19 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gt510wifi/proprietary/etc/Handset_cal.acdb:system/etc/Handset_cal.acdb \
     vendor/samsung/gt510wifi/proprietary/etc/Hdmi_cal.acdb:system/etc/Hdmi_cal.acdb \
     vendor/samsung/gt510wifi/proprietary/etc/Headset_cal.acdb:system/etc/Headset_cal.acdb \
-    vendor/samsung/gt510wifi/proprietary/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
-    vendor/samsung/gt510wifi/proprietary/etc/A05QF_sr544_module_info.xml:system/vendor/etc/A05QF_sr544_module_info.xml \
-    vendor/samsung/gt510wifi/proprietary/etc/B05QF_sr544_module_info.xml:system/vendor/etc/B05QF_sr544_module_info.xml \
-    vendor/samsung/gt510wifi/proprietary/etc/C05QF_sr544_module_info.xml:system/vendor/etc/C05QF_sr544_module_info.xml \
-    vendor/samsung/gt510wifi/proprietary/etc/media_profiles_V1_0.xml:system/vendor/etc/media_profiles_V1_0.xml
+    vendor/samsung/gt510wifi/proprietary/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb
 
 PRODUCT_COPY_FILES += \
-    vendor/samsung/gt510wifi/proprietary/lib/hw/sensors.msm8916.so:system/vendor/lib/hw/sensors.msm8916.so \
     vendor/samsung/gt510wifi/proprietary/lib/hw/lights.msm8916.so:system/vendor/lib/hw/lights.msm8916.so \
     vendor/samsung/gt510wifi/proprietary/lib/hw/camera.vendor.msm8916.so:system/lib/hw/camera.vendor.msm8916.so \
-    vendor/samsung/gt510wifi/proprietary/lib/hw/audio.primary.msm8916.so:system/vendor/lib/hw/audio.primary.msm8916.so
+    vendor/samsung/gt510wifi/proprietary/lib/hw/audio.primary.msm8916.so:system/vendor/lib/hw/audio.primary.msm8916.so \
+    vendor/samsung/gt510wifi/proprietary/lib/hw/sensors.vendor.msm8916.so:system/vendor/lib/hw/sensors.vendor.msm8916.so
 
 PRODUCT_COPY_FILES += \
-    vendor/samsung/gt510wifi/proprietary/lib/modules/pronto/pronto_wlan.ko:system/lib/modules/pronto/pronto_wlan.ko \
     vendor/samsung/gt510wifi/proprietary/lib/libarcsoft_bestphoto_select.so:system/lib/libarcsoft_bestphoto_select.so \
     vendor/samsung/gt510wifi/proprietary/lib/libarcsoft_panorama_burstcapture.so:system/lib/libarcsoft_panorama_burstcapture.so \
     vendor/samsung/gt510wifi/proprietary/lib/libarcsoft_selfie_camera_lite.so:system/lib/libarcsoft_selfie_camera_lite.so \
     vendor/samsung/gt510wifi/proprietary/lib/libaudio-resampler.so:system/lib/libaudio-resampler.so \
-    vendor/samsung/gt510wifi/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
-    vendor/samsung/gt510wifi/proprietary/lib/liblocationservice.so:system/lib/liblocationservice.so \
-    vendor/samsung/gt510wifi/proprietary/lib/liblocationservice_glue.so:system/lib/liblocationservice_glue.so \
-    vendor/samsung/gt510wifi/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
-    vendor/samsung/gt510wifi/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
-    vendor/samsung/gt510wifi/proprietary/lib/libloc_ext.so:system/lib/libloc_ext.so \
     vendor/samsung/gt510wifi/proprietary/lib/lib_PreGainBooster_ver105.so:system/lib/lib_PreGainBooster_ver105.so \
     vendor/samsung/gt510wifi/proprietary/lib/libsamsungearcare.so:system/lib/libsamsungearcare.so \
     vendor/samsung/gt510wifi/proprietary/lib/libsamsungeffect.so:system/lib/libsamsungeffect.so \
@@ -77,6 +66,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gt510wifi/proprietary/lib/libsamsungSoundbooster_ext.so:system/lib/libsamsungSoundbooster_ext.so \
     vendor/samsung/gt510wifi/proprietary/lib/libsamsungVoipResampler.so:system/lib/libsamsungVoipResampler.so \
     vendor/samsung/gt510wifi/proprietary/lib/libsecaudioinfo.so:system/lib/libsecaudioinfo.so \
+    vendor/samsung/gt510wifi/proprietary/lib/libsensorservice.so:system/lib/libsensorservice.so \
     vendor/samsung/gt510wifi/proprietary/lib/soundfx/libaudiosaplus_sec.so:system/lib/soundfx/libaudiosaplus_sec.so \
     vendor/samsung/gt510wifi/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/samsung/gt510wifi/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
@@ -129,12 +119,5 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gt510wifi/proprietary/vendor/lib/libchromatix_sr544_preview.so:system/vendor/lib/libchromatix_sr544_preview.so \
     vendor/samsung/gt510wifi/proprietary/vendor/lib/libchromatix_sr544_snapshot.so:system/vendor/lib/libchromatix_sr544_snapshot.so \
     vendor/samsung/gt510wifi/proprietary/vendor/lib/libchromatix_sr544_zslshot.so:system/vendor/lib/libchromatix_sr544_zslshot.so \
-    vendor/samsung/gt510wifi/proprietary/vendor/lib/libdataitems.so:system/vendor/lib/libdataitems.so \
     vendor/samsung/gt510wifi/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
-    vendor/samsung/gt510wifi/proprietary/vendor/lib/libsecureui.so:system/vendor/lib/libsecureui.so \
-    vendor/samsung/gt510wifi/proprietary/vendor/lib/libSecureUILib.so:system/vendor/lib/libSecureUILib.so \
-    vendor/samsung/gt510wifi/proprietary/vendor/lib/libsecureuisvc_jni.so:system/vendor/lib/libsecureuisvc_jni.so \
-    vendor/samsung/gt510wifi/proprietary/vendor/lib/libsecureui_svcsock.so:system/vendor/lib/libsecureui_svcsock.so \
-    vendor/samsung/gt510wifi/proprietary/vendor/lib/libStDrvInt.so:system/vendor/lib/libStDrvInt.so \
-    vendor/samsung/gt510wifi/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
     vendor/samsung/gt510wifi/proprietary/vendor/lib/libQjpeg.so:system/vendor/lib/libQjpeg.so
