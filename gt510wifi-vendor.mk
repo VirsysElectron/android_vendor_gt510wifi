@@ -91,3 +91,16 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gt510wifi/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
     vendor/samsung/gt510wifi/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
     vendor/samsung/gt510wifi/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so
+
+PRODUCT_COPY_FILES += \
+    vendor/samsung/gt510wifi/proprietary/vendor/lib/libsecureui_svcsock.so:system/vendor/lib/libsecureui_svcsock.so \
+    vendor/samsung/gt510wifi/proprietary/vendor/lib/libsecureui.so:system/vendor/lib/libsecureui.so \
+    vendor/samsung/gt510wifi/proprietary/vendor/lib/libStDrvInt.so:system/vendor/lib/libStDrvInt.so \
+    vendor/samsung/gt510wifi/proprietary/vendor/lib/libSecureUILib.so:system/vendor/lib/libSecureUILib.so \
+    vendor/samsung/gt510wifi/proprietary/vendor/lib/lib-sec-disp.so:system/vendor/lib/lib-sec-disp.so
+
+PRODUCT_COPY_FILES += \
+    vendor/samsung/gt510wifi/proprietary/lib/libaudiosa.so:system/lib/libaudiosa.so \
+    vendor/samsung/gt510wifi/proprietary/lib/libmysound.so:system/lib/libmysound.so \
+    vendor/samsung/gt510wifi/proprietary/lib/soundfx/libaudioeffectoffload.so:system/lib/soundfx/libaudioeffectoffload.so \
+    vendor/samsung/gt510wifi/proprietary/lib/soundfx/libmyspace.so:system/lib/soundfx/libmyspace.so
