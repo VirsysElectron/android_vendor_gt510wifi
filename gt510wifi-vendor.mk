@@ -26,7 +26,6 @@ PRODUCT_COPY_FILES += \
 
 # Camera
 PRODUCT_COPY_FILES += \
-    vendor/samsung/gt510wifi/proprietary/vendor/lib/hw/camera.vendor.msm8916.so:system/vendor/lib/hw/camera.vendor.msm8916.so \
     vendor/samsung/gt510wifi/proprietary/vendor/lib/libaec_algo_front.so:system/vendor/lib/libaec_algo_front.so \
     vendor/samsung/gt510wifi/proprietary/vendor/lib/libaec_algo_rear.so:system/vendor/lib/libaec_algo_rear.so \
     vendor/samsung/gt510wifi/proprietary/vendor/lib/libaf_algo_rear.so:system/vendor/lib/libaf_algo_rear.so \
@@ -76,7 +75,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gt510wifi/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
     vendor/samsung/gt510wifi/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
     vendor/samsung/gt510wifi/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
-    vendor/samsung/gt510wifi/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
+    vendor/samsung/gt510wifi/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so
+
+#    vendor/samsung/gt510wifi/proprietary/vendor/lib/hw/camera.vendor.msm8916.so:system/vendor/lib/hw/camera.vendor.msm8916.so \
 
 # Qualcomm framework
 PRODUCT_COPY_FILES += \
